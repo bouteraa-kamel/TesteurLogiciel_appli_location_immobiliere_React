@@ -1,0 +1,13 @@
+.home {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.cards-container {
+  background: #f6f6f6;
+  border-radius: 25px;
+  padding: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
