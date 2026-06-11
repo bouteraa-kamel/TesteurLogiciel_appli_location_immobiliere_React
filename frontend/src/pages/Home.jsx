@@ -1,15 +1,16 @@
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import data from "../data/data.json";
+import logements from "../data/data.json";
+import bannerHome from "../assets/banner-home.png";
 import "./Home.scss";
 
 function Home() {
   return (
     <div className="home">
-      <Banner />
+      <Banner image={bannerHome} title="Chez vous, partout et ailleurs" />
 
       <div className="cards-container">
-        {data.map((logement) => (
+        {logements.map((logement) => (
           <Card
             key={logement.id}
             title={logement.title}

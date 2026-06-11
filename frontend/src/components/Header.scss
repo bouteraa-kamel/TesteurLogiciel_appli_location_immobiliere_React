@@ -4,7 +4,13 @@
   align-items: center;
 
   max-width: 1240px;
-  margin: 45px auto;
+  margin: 0 auto;
+  padding: 45px 0;
+}
+
+.logo img {
+  width: 210px;
+  height: auto;
 }
 
 .header nav {
