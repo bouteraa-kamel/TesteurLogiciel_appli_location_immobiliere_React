@@ -1,0 +1,97 @@
+.housing {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.housing-cover {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.housing-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.housing-left h1 {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.housing-left p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.housing-tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.housing-tags span {
+  background-color: #ff6060;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.housing-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.housing-host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.housing-host p {
+  color: #ff6060;
+  font-size: 18px;
+  text-align: right;
+}
+
+.housing-host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.housing-rating {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.housing-rating span {
+  color: #e3e3e3;
+  font-size: 24px;
+}
+
+.housing-rating .active {
+  color: #ff6060;
+}
+.housing-collapses {
+  display: flex;
+  gap: 76px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.housing-collapses .collapse {
+  width: 50%;
+  margin: 0;
+}
+
+.housing-collapses ul {
+  list-style: none;
+}
