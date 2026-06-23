@@ -1,12 +1,17 @@
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import logements from "../data/data.json";
-import "./Housing.scss";
 import Collapse from "../components/Collapse";
 import Slideshow from "../components/Slideshow";
+import "./Housing.scss";
+
 function Housing() {
   const { id } = useParams();
 
   const logement = logements.find((item) => item.id === id);
+
+  if (!logement) {
+    return <Navigate to="/error" />;
+  }
 
   return (
     <div className="housing">

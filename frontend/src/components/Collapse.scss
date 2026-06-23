@@ -39,3 +39,24 @@
   line-height: 1.4;
   border-radius: 0 0 5px 5px;
 }
+@media (max-width: 768px) {
+  .collapse {
+    width: 100%;
+  }
+
+  .collapse-header {
+    height: 30px;
+  }
+
+  .collapse-header h3 {
+    font-size: 13px;
+  }
+
+  .collapse-arrow {
+    font-size: 20px;
+  }
+
+  .collapse-content {
+    font-size: 12px;
+  }
+}

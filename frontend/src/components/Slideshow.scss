@@ -39,3 +39,25 @@
   color: white;
   font-size: 18px;
 }
+@media (max-width: 768px) {
+  .slideshow {
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .slideshow-arrow {
+    font-size: 40px;
+  }
+
+  .slideshow-arrow.left {
+    left: 10px;
+  }
+
+  .slideshow-arrow.right {
+    right: 10px;
+  }
+
+  .slideshow-count {
+    display: none;
+  }
+}
